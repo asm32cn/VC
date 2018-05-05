@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PaStars2016SDK - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PaStars2016SDK.res" /d "NDEBUG" "E:\CODE\VC\training\PaStars2016SDK\PaStars2016SDK.rc"" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP5E.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CODE\VC\training\PaStars2016SDK\PaStars2016SDK.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP5E.tmp" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP5F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/PaStars2016SDK.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CODE\VC\training\PaStars2016SDK\StdAfx.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP5F.tmp" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP60.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/PaStars2016SDK_.pdb" /machine:I386 /out:"PaStars2016SDK_.exe" 
+.\Release\PaStars2016SDK.obj
+.\Release\StdAfx.obj
+.\Release\PaStars2016SDK.res
+]
+Creating command line "link.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\1\RSP60.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+PaStars2016SDK.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+PaStars2016SDK_.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
