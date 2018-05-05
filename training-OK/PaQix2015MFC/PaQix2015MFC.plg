@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PaQix2015MFC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PaQix2015MFC.res" /d "NDEBUG" /d "_AFXDLL" "E:\CODE\VC\training-OK\PaQix2015MFC\PaQix2015MFC.rc"" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PaQix2015MFC.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CODE\VC\training-OK\PaQix2015MFC\ChildView.cpp"
+"E:\CODE\VC\training-OK\PaQix2015MFC\MainFrm.cpp"
+"E:\CODE\VC\training-OK\PaQix2015MFC\PaQix2015MFC.cpp"
+"E:\CODE\VC\training-OK\PaQix2015MFC\PaQixColor.cpp"
+"E:\CODE\VC\training-OK\PaQix2015MFC\PaQixPoints.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E2.tmp" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PaQix2015MFC.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CODE\VC\training-OK\PaQix2015MFC\StdAfx.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E3.tmp" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PaQix2015MFC_.pdb" /machine:I386 /out:"PaQix2015MFC_.exe" 
+".\Release\ChildView.obj"
+".\Release\MainFrm.obj"
+".\Release\PaQix2015MFC.obj"
+".\Release\PaQixColor.obj"
+".\Release\PaQixPoints.obj"
+".\Release\StdAfx.obj"
+".\Release\PaQix2015MFC.res"
+]
+Creating command line "link.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1E4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildView.cpp
+MainFrm.cpp
+PaQix2015MFC.cpp
+PaQixColor.cpp
+PaQixPoints.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PaQix2015MFC_.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
