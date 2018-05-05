@@ -1,0 +1,31 @@
+	// 处理 JPEG GIF 图片资源
+	//lpFaceData = LoadResource(ghInstance, FindResource(ghInstance, MAKEINTRESOURCE(IDR_GIF1), "GIF") );
+	lpFaceData = LoadResource(ghInstance, FindResource(ghInstance, MAKEINTRESOURCE(IDR_JPEG1), "JPEG") );
+	if(lpFaceData){
+		DWORD dwSize = ghFaceData_size;
+
+		ghFaceData = ::GlobalAlloc( GMEM_MOVEABLE, dwSize ); 
+		LPVOID  pData = ::GlobalLock( ghFaceData ); 
+		memcpy(pData, lpFaceData, dwSize);
+		::GlobalUnlock( ghFaceData ); 
+
+		//IStream * pStream  = NULL; 
+		if(S_OK == ::CreateStreamOnHGlobal( ghFaceData, FALSE, &pStream ) )
+		{
+			//	从流中装入图片 
+			//IPicture * pPicture = NULL; 
+			if( SUCCEEDED( OleLoadPicture( pStream, dwSize, TRUE, IID_IPicture,( LPVOID* )&pPicture ) ) ) 
+			{ 
+				//	向DC中绘图 
+				//OLE_XSIZE_HIMETRIC hmWidth;
+				//OLE_YSIZE_HIMETRIC hmHeight; 
+				//pPicture->get_Width( &hmWidth ); 
+				//pPicture->get_Height( &hmHeight ); 
+				//pPicture->Render( hDC, 0, 0, 300, 300, 0, hmHeight, hmWidth, -hmHeight, NULL ); 
+				//pPicture->Release();
+			}
+			// 释放流和文件 
+			//pStream->Release();
+		}
+	}
+
