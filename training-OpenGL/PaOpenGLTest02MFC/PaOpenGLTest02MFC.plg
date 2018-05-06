@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PaOpenGLTest02MFC - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PaOpenGLTest02MFC.res" /d "NDEBUG" /d "_AFXDLL" "E:\CODE\VC\training-OpenGL\PaOpenGLTest02MFC\PaOpenGLTest02MFC.rc"" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B7.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PaOpenGLTest02MFC.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CODE\VC\training-OpenGL\PaOpenGLTest02MFC\MainFrm.cpp"
+"E:\CODE\VC\training-OpenGL\PaOpenGLTest02MFC\PaOpenGLTest02MFC.cpp"
+"E:\CODE\VC\training-OpenGL\PaOpenGLTest02MFC\PaOpenGLTest02MFCDoc.cpp"
+"E:\CODE\VC\training-OpenGL\PaOpenGLTest02MFC\PaOpenGLTest02MFCView.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B7.tmp" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B8.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PaOpenGLTest02MFC.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\CODE\VC\training-OpenGL\PaOpenGLTest02MFC\StdAfx.cpp"
+]
+Creating command line "cl.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B8.tmp" 
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B9.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PaOpenGLTest02MFC_.pdb" /machine:I386 /out:"PaOpenGLTest02MFC_.exe" 
+".\Release\MainFrm.obj"
+".\Release\PaOpenGLTest02MFC.obj"
+".\Release\PaOpenGLTest02MFCDoc.obj"
+".\Release\PaOpenGLTest02MFCView.obj"
+".\Release\StdAfx.obj"
+".\Release\PaOpenGLTest02MFC.res"
+]
+Creating command line "link.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP5B9.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+PaOpenGLTest02MFC.cpp
+PaOpenGLTest02MFCDoc.cpp
+PaOpenGLTest02MFCView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PaOpenGLTest02MFC_.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
