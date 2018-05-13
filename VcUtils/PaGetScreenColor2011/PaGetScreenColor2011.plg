@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PaGetScreenColor2011 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1FE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PaGetScreenColor2011_.pdb" /machine:I386 /out:"PaGetScreenColor2011_.exe" 
+.\Release\PaGetScreenColor2011.obj
+.\Release\PaGetScreenColor2011Dlg.obj
+.\Release\StdAfx.obj
+.\Release\PaGetScreenColor2011.res
+]
+Creating command line "link.exe @H:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1FE.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+PaGetScreenColor2011_.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
